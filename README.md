@@ -16,16 +16,6 @@ High accuracy, low latency, and one flat price. No per-solve fees, no throttling
 
 ## What is CapSkip?
 
-<div align="center">
-
-<a href="https://www.youtube.com/watch?v=Wu-M0wBTEkY">
-  <img src="https://img.youtube.com/vi/Wu-M0wBTEkY/maxresdefault.jpg" alt="Watch the CapSkip demo" width="720">
-</a>
-
-<sub>▶️ Watch the demo</sub>
-
-</div>
-
 The [CapSkip Captcha Solver](https://capskip.com) is a desktop app that solves captchas right on your own computer. It runs quietly in the background and exposes a standard captcha-solver HTTP API (the familiar `in.php` and `res.php` endpoints), so your scripts, bots, and apps can solve captchas through one simple local endpoint.
 
 - ♾️ **Unlimited solving.** Solve as many captchas as you want, with no limits and no throttling. This is the whole point.
