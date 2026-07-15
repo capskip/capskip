@@ -1,12 +1,14 @@
 <div align="center">
 
-# CapSkip
+<img src="banner.png" alt="CapSkip, Unlimited Captcha Solver" width="100%">
 
-### Desktop AI captcha solver — high accuracy, low latency, flat-rate pricing
+### Unlimited captcha solving, right on your own machine
 
-Solve captchas **locally** on your own machine. No cloud middleman, no per-solve fees.
+High accuracy, low latency, and one flat price. No per-solve fees, no throttling, no limits.
 
-[**🌐 Website**](https://capskip.com) &nbsp;·&nbsp; [**📚 API Docs**](https://capskip.com/api-docs/) &nbsp;·&nbsp; [**⬇️ Download**](https://capskip.com)
+[![Download for Windows](https://img.shields.io/badge/Download%20for%20Windows-2ea44f?style=for-the-badge&logo=windows&logoColor=white)](https://capskip.com/download/CapSkipInstaller.msi)
+[![Chrome Extension](https://img.shields.io/badge/Chrome%20Extension-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/capskip-%E2%80%93-unlimited-captc/mgciphejglphomemchljofgoeakdfccl)
+[![Firefox Add-on](https://img.shields.io/badge/Firefox%20Add--on-FF7139?style=for-the-badge&logo=firefoxbrowser&logoColor=white)](https://addons.mozilla.org/en-US/firefox/addon/capskip-captcha-solver/)
 
 </div>
 
@@ -14,24 +16,41 @@ Solve captchas **locally** on your own machine. No cloud middleman, no per-solve
 
 ## What is CapSkip?
 
-**[CapSkip](https://capskip.com)** is a desktop application that solves captchas **locally** on your own computer. It runs in the background and exposes a standard captcha-solver HTTP API (the familiar `in.php` / `res.php` endpoints), so your scripts, bots, and apps can solve captchas through one simple local endpoint.
+<div align="center">
 
-- 🖥️ **Runs locally** — captchas are solved on your machine, not a remote service
-- 🎯 **High accuracy, low latency** — AI-powered solving tuned for speed
-- 💸 **Flat-rate pricing** — no per-solve API fees beyond your license
-- 🔌 **Drop-in HTTP API** — standard `in.php` / `res.php` endpoints
-- 📦 **Official SDKs** for Python, Node.js, .NET, and PHP
+<a href="https://www.youtube.com/watch?v=Wu-M0wBTEkY">
+  <img src="https://img.youtube.com/vi/Wu-M0wBTEkY/maxresdefault.jpg" alt="Watch the CapSkip demo" width="720">
+</a>
 
-👉 **Get CapSkip at [capskip.com](https://capskip.com)**
+<sub>▶️ Watch the demo</sub>
+
+</div>
+
+The [CapSkip Captcha Solver](https://capskip.com) is a desktop app that solves captchas right on your own computer. It runs quietly in the background and exposes a standard captcha-solver HTTP API (the familiar `in.php` and `res.php` endpoints), so your scripts, bots, and apps can solve captchas through one simple local endpoint.
+
+- ♾️ **Unlimited solving.** Solve as many captchas as you want, with no limits and no throttling. This is the whole point.
+- 🖥️ **Runs locally.** Captchas are solved on your machine, not on someone else's server.
+- 🎯 **High accuracy, low latency.** AI-powered solving that is tuned for speed.
+- 💸 **One flat price.** A simple subscription instead of paying for every solve.
+- 🔌 **Drop-in HTTP API.** Standard `in.php` and `res.php` endpoints that just work.
+- 🧩 **Browser extensions and SDKs.** Chrome and Firefox extensions, plus official libraries for Python, Node.js, .NET, and PHP.
 
 ## What it solves
 
 | Captcha type | Supported |
 |---|:---:|
 | Image CAPTCHA (distorted text) | ✅ |
-| reCAPTCHA v2 — checkbox, invisible, enterprise | ✅ |
+| reCAPTCHA v2 (checkbox, invisible, enterprise) | ✅ |
 | reCAPTCHA v3 | ✅ |
-| Cloudflare Turnstile — widget & challenge page | ✅ |
+| Cloudflare Turnstile (widget and challenge page) | ✅ |
+
+## Browser extensions
+
+Prefer to solve captchas straight from your browser? Grab the extension:
+
+[![Chrome Web Store](https://img.shields.io/badge/Chrome%20Web%20Store-Install-4285F4?logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/capskip-%E2%80%93-unlimited-captc/mgciphejglphomemchljofgoeakdfccl)
+&nbsp;
+[![Firefox Add-ons](https://img.shields.io/badge/Firefox%20Add--ons-Install-FF7139?logo=firefoxbrowser&logoColor=white)](https://addons.mozilla.org/en-US/firefox/addon/capskip-captcha-solver/)
 
 ## Official SDKs
 
@@ -45,7 +64,7 @@ First-party clients that wrap the CapSkip local API with clean, familiar methods
 | **PHP** | [![Packagist](https://img.shields.io/packagist/v/capskip/capskip?label=capskip%2Fcapskip&logo=packagist&logoColor=white)](https://packagist.org/packages/capskip/capskip) | [capskip-php](https://github.com/capskip/capskip-php) |
 
 ```python
-# Python — solve a reCAPTCHA in a few lines
+# Python, solve a reCAPTCHA in a few lines
 from capskip import CapSkip
 
 solver = CapSkip(host="127.0.0.1", port=8080)
@@ -55,10 +74,10 @@ print(result["code"])   # the g-recaptcha-response token
 
 ## Resources
 
-- 🌐 **Website** — [capskip.com](https://capskip.com)
-- 📚 **API documentation** — [capskip.com/api-docs](https://capskip.com/api-docs/)
-- 📬 **Support** — [support@capskip.com](mailto:support@capskip.com)
+- ⬇️ **Download for Windows**: [CapSkipInstaller.msi](https://capskip.com/download/CapSkipInstaller.msi)
+- 📚 **API documentation**: [capskip.com/api-docs](https://capskip.com/api-docs/)
+- 📬 **Support**: [support@capskip.com](mailto:support@capskip.com)
 
 <div align="center">
-<sub>Solve captchas locally, on your terms. — <a href="https://capskip.com">capskip.com</a></sub>
+<sub>Solve captchas locally, without limits.</sub>
 </div>
