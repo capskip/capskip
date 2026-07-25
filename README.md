@@ -33,6 +33,7 @@ The [CapSkip Captcha Solver](https://capskip.com) is a desktop app that solves c
 | reCAPTCHA v2 (checkbox, invisible, enterprise) | ✅ |
 | reCAPTCHA v3 | ✅ |
 | Cloudflare Turnstile (widget and challenge page) | ✅ |
+| GeeTest v3 (slide puzzle) | ✅ |
 
 ## Browser extensions
 
