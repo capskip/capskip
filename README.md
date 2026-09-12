@@ -23,7 +23,7 @@ The [CapSkip Captcha Solver](https://capskip.com) is a desktop app that solves c
 - 🎯 **High accuracy, low latency.** AI-powered solving that is tuned for speed.
 - 💸 **One flat price.** A simple subscription instead of paying for every solve.
 - 🔌 **Drop-in HTTP API.** Standard `in.php` and `res.php` endpoints that just work.
-- 🧩 **Browser extensions and SDKs.** Chrome and Firefox extensions, plus official libraries for Python, Node.js, .NET, and PHP.
+- 🧩 **Browser extensions, SDKs, and MCP.** Chrome and Firefox extensions, official libraries for Python, Node.js, .NET, and PHP, and an MCP server so AI agents can solve captchas themselves.
 
 ## What it solves
 
@@ -34,6 +34,7 @@ The [CapSkip Captcha Solver](https://capskip.com) is a desktop app that solves c
 | reCAPTCHA v3 | ✅ |
 | Cloudflare Turnstile (widget and challenge page) | ✅ |
 | GeeTest v3 (slide puzzle) | ✅ |
+| ALTCHA (proof-of-work) | ✅ |
 
 ## Browser extensions
 
@@ -62,6 +63,22 @@ solver = CapSkip(host="127.0.0.1", port=8080)
 result = solver.recaptcha(sitekey="YOUR_SITEKEY", url="https://example.com")
 print(result["code"])   # the g-recaptcha-response token
 ```
+
+## AI agents (MCP)
+
+An agent driving a browser hits a captcha and stops. The [CapSkip MCP server](https://github.com/capskip/capskip-mcp) gives it tools to solve the captcha and carry on — no human stepping in, no per-solve bill.
+
+Works with Claude Desktop, Claude Code, Cursor, VS Code, and any [Model Context Protocol](https://modelcontextprotocol.io) client.
+
+| Package | Source |
+|---|---|
+| [![npm](https://img.shields.io/npm/v/capskip-mcp?label=capskip-mcp&logo=npm&logoColor=white)](https://www.npmjs.com/package/capskip-mcp) | [capskip-mcp](https://github.com/capskip/capskip-mcp) |
+
+```bash
+npx -y capskip-mcp
+```
+
+No install step — `npx` fetches and runs it on demand.
 
 ## Resources
 
