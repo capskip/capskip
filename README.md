@@ -35,6 +35,9 @@ The [CapSkip Captcha Solver](https://capskip.com) is a desktop app that solves c
 | Cloudflare Turnstile (widget and challenge page) | ✅ |
 | GeeTest v3 (slide puzzle) | ✅ |
 | ALTCHA (proof-of-work) | ✅ |
+| Capy Puzzle (slide puzzle) | ✅ |
+| CaptchaFox (widget) | ✅ |
+| Friendly Captcha (proof-of-work, v1 and v2) | ✅ |
 
 ## Browser extensions
 
