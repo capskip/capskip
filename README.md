@@ -39,6 +39,7 @@ The [CapSkip Captcha Solver](https://capskip.com) is a desktop app that solves c
 | CaptchaFox (widget) | ✅ |
 | Friendly Captcha (proof-of-work, v1 and v2) | ✅ |
 | AWS WAF CAPTCHA (Amazon WAF, challenge page and widget) | ✅ |
+| DataDome (slider and device check) | ✅ |
 
 ## Browser extensions
 
