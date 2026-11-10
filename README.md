@@ -6,7 +6,7 @@
 
 High accuracy, low latency, and one flat price. No per-solve fees, no throttling, no limits.
 
-[![Download for Windows](https://img.shields.io/badge/Download%20for%20Windows-2ea44f?style=for-the-badge&logo=windows&logoColor=white)](https://capskip.com/download/CapSkipInstaller.msi)
+[![Download for Windows](https://img.shields.io/badge/Download%20for%20Windows-2ea44f?style=for-the-badge&logo=windows&logoColor=white)](https://capskip.com/download-capskip/)
 [![Chrome Extension](https://img.shields.io/badge/Chrome%20Extension-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/capskip-%E2%80%93-unlimited-captc/mgciphejglphomemchljofgoeakdfccl)
 [![Firefox Add-on](https://img.shields.io/badge/Firefox%20Add--on-FF7139?style=for-the-badge&logo=firefoxbrowser&logoColor=white)](https://addons.mozilla.org/en-US/firefox/addon/capskip-captcha-solver/)
 
@@ -41,6 +41,7 @@ The [CapSkip Captcha Solver](https://capskip.com) is a desktop app that solves c
 | AWS WAF CAPTCHA (Amazon WAF, challenge page and widget) | ✅ |
 | DataDome (slider and device check) | ✅ |
 | hCaptcha (checkbox, invisible, enterprise) | ✅ |
+| MTCaptcha (text captcha) | ✅ |
 
 ## Browser extensions
 
@@ -88,7 +89,7 @@ No install step — `npx` fetches and runs it on demand.
 
 ## Resources
 
-- ⬇️ **Download for Windows**: [CapSkipInstaller.msi](https://capskip.com/download/CapSkipInstaller.msi)
+- ⬇️ **Download for Windows**: [capskip.com/download-capskip](https://capskip.com/download-capskip/)
 - 📚 **API documentation**: [capskip.com/api-docs](https://capskip.com/api-docs/)
 - 📬 **Support**: [support@capskip.com](mailto:support@capskip.com)
 
